@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import About from '../pages/about.js';
 
 
 export const Navbar = () => {
@@ -9,13 +10,14 @@ export const Navbar = () => {
               <Link id="navlink" to="/">home</Link>
           </li>
           <li>
-              <Link id="navlink" to="/">home</Link>
+              <Link id="navlink" to="/about">about</Link>
           </li>
           <li>
-              <Link id="navlink" to="/">home</Link>
+              <Link id="navlink" to="/">tech</Link>
           </li>
-
-          
+          <li>
+              <Link id="navlink" to="/">creative</Link>
+          </li>
     </div>
   );
 };
