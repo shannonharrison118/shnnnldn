@@ -1,0 +1,82 @@
+.App{
+    height: 100%;
+}
+
+#aboutcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+#writing {
+    margin-top: 40px;
+    padding-left: 20px;
+    line-height: 1.4rem;
+}
+h1, h3{
+    color: #cba8ad;
+}
+
+#small{
+    width: 80%;
+    padding-left: 80px;
+    color: #cba8ad;
+}
+
+#me{
+    margin-top: 70px;
+    padding-left: 130px;
+    width: 50%;
+}
+
+#me > small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 240, 231);
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#sociallinks{
+    display: inline-block;
+}
+#online{
+    display: flex;
+}
+
+#sociallinks > h3{
+    color: rgb(240, 240, 231);
+    align-items: center;
+}
+
+#online > button{
+    background-color: #957176;
+    color:rgb(240, 240, 231);
+    width: 180px;
+    height: 40px;
+    border: black 0px solid;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+#online > button > a{
+    text-decoration: none;
+    color:rgb(240, 240, 231);
+
+}

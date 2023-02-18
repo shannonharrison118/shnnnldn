@@ -1,23 +1,25 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import About from '../pages/about.js';
 
 
 export const Navbar = () => {
   return(
     <div id="nav">
-          <li>
+          <ul>
               <Link id="navlink" to="/">home</Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
               <Link id="navlink" to="/about">about</Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
               <Link id="navlink" to="/">tech</Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
               <Link id="navlink" to="/">creative</Link>
-          </li>
+          </ul>
+          <ul>
+              <Link id="navlink" to="/">passions</Link>
+          </ul>
     </div>
   );
 };
