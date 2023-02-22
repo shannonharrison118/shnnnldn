@@ -8,13 +8,13 @@ function App() {
       <div id="head">
         <pre>
         <h1>welcome :) </h1>
-        <p>im shannon and this is a culmination of my technical and creative works.</p></pre>
+        <p>this is a culmination of my technical and creative works.</p></pre>
       </div>
       <div id="links">
-          <button><Link id="navlink" to="/about">about</Link></button>
-          <button><Link id="navlink" to="/">tech</Link></button>
-          <button><Link id="navlink" to="/">creative</Link></button>
-          <button><Link id="navlink" to="/">passions</Link></button>
+          <Link id="navlink" to="/about">about me</Link>
+          <Link id="navlink" to="/">technical work</Link>
+          <Link id="navlink" to="/">creative work</Link>
+          <Link id="navlink" to="/">passions</Link>
       </div>
       <div id="ascii">
         <br></br>

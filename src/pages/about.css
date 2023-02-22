@@ -19,16 +19,25 @@
 #writing {
     margin-top: 40px;
     padding-left: 20px;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    
 }
-h1, h3{
-    color: #cba8ad;
+h1, h4{
+    color: #b3747c;
 }
 
 #small{
     width: 80%;
     padding-left: 80px;
-    color: #cba8ad;
+    color: #b3747c;
+}
+
+#my-melody {
+    line-height: 0.4rem;
+    font-size: 0.6rem;
+    text-align: right;
+    margin-top: -105px;
+    margin-bottom: 20px;
 }
 
 #me{
@@ -45,12 +54,14 @@ h1, h3{
 }
 
 #socials{
+    background-color: #b3747c;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(240, 240, 231);
     margin-top: 80px;
     margin-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 #sociallinks{
@@ -66,14 +77,14 @@ h1, h3{
 }
 
 #online > button{
-    background-color: #957176;
+    background-color: #b3747c;
     color:rgb(240, 240, 231);
     width: 180px;
     height: 40px;
     border: black 0px solid;
     border-radius: 2px;
     margin-left: 30px;
-    margin-right: 30px
+    margin-right: 30px;
 }
 #online > button > a{
     text-decoration: none;

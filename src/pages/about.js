@@ -15,7 +15,7 @@ function About() {
                     <div id="column">
                         <div id="writing">
                         <h1>hi :) im shannon harrison / shnnnldn</h1>
-                        <h3>i am a frontend developer and web designer based in New York City</h3>
+                        <h4>I am a frontend developer and web designer based in New York City</h4>
                         <br></br>
                         <p>I am currently a student at the Univeristy of Florida, completing a Bachelor of Science in Computer
                             Science and graduating in May 2023. I am passionate about creating meaningful experiences online via websites
@@ -27,6 +27,7 @@ function About() {
                             and all things creative get to live. shnnn acts as a persona to differentiate the interests and person i
                             show online vs. shannon who lives everyday life. Growing up in many online spaces has allowed me to feel
                             more comfortable in exploring my creativity and the web has always felt like a different world than reality.
+                        </p><p>
                             Existing online in a more creative version of myself is what inspired me to learn more about computer science
                             and how to create similar enjoyable experiences on the web.
                         </p>
@@ -36,8 +37,8 @@ function About() {
                                 fka twigs is also my favorite musical artist and we have the same astrological sun, moon, and venus.
                                 im trying to spend more of my time reading and watching movies. most of my free time though
                                 is spent learning about fashion and discovering new designers.</small></p>
-                            <p><small>as of right now, i hardly have any free time while i finish up my studies and learn about operating systems
-                                , databases, and work in a senior group project focused on drone-human interaction.</small></p>
+                            <p><small>as of right now, i am finishing up my studies and learning about operating systems, databases, 
+                                and working in a senior project group focused on drone-human interaction.</small></p>
                             <br></br>
                             <br></br>
                         </div>
@@ -45,11 +46,22 @@ function About() {
                     </div>
                     <div id="column">
                         <div id="me">
-                            
+                            <div id="my-melody">
+                                <pre>     ⌒                   </pre>
+                                <pre> /        \   ⌒          </pre>
+                                <pre>|    |     /    ヽ       </pre>
+                                <pre> (⌒ｖ⌒)|/ |      |       </pre>
+                                <pre>  {'>'} ○ {'<'}    ヽ___/        </pre>
+                                <pre>  (＿人＿)　　   　＼      </pre>
+                                <pre> |　  ／￣￣￣＼    ｜     </pre>
+                                <pre> ヽ( ●   ｏ   ● )ﾉ       </pre>
+                                <pre>      ＞―亠―＜            </pre>
+                                <pre>｡˚ ⋆｡⋆˚୨୧⋆｡˚ ⋆     ＼_ノヽ_／           </pre>
+                            </div>
                             <img src={me} width={350}></img>
                             <small>this is what i look like most of the time</small>
                             <br></br>
-                            <p>currently listening to: </p>
+                            <p><small>currently listening to: </small></p>
                             <Spotify link = "https://open.spotify.com/playlist/6cTd8aiDx5YxlC9IDhraQh?si=36211e1abde544e4" />
                         </div>
                     </div>
@@ -57,12 +69,12 @@ function About() {
 
                 <div id="socials">
                     <div id="sociallinks">
-                        <h3>me online:</h3>
+                        <h3>me online˚⁎⁺˳✽</h3>
                         <div id="online">
                             <button><Link to="https://docs.google.com/document/d/1fpmLj0OJv-sf2c-js1Np2sD-RZm4o6bVpr-GZG7KN4U/edit?usp=sharing" target="_blank">Resume</Link></button>
                             <button><Link to="https://github.com/shannonharrison118" target="_blank">GitHub</Link></button>
                         </div>
-                        <h3>connect or talk w me :)</h3>
+                        <h3>connect or talk w me ˖◛⁺ ⑅ ♡</h3>
                         <div id="online">
                             <button><Link to="https://www.linkedin.com/in/shannon-harrison-/" target="_blank">LinkedIn</Link></button>
                             <button><div id="link" onClick={(e) => { window.location.href = 'mailto:example@email.com'; }}>email me</div></button>
