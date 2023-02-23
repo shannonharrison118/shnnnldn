@@ -81,9 +81,9 @@ function About() {
                         </div>
                     </div>
                 </div>
-
+                <Footer id="foot"/>
             </div>
-            <Footer />
+            
         </div>
     );
 }
