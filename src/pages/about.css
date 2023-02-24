@@ -42,16 +42,27 @@ h1, h4{
 }
 
 #me{
+    margin-top: -50px;
+    margin-bottom: -80px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    background-color: #000000;
+    color:rgb(240, 240, 231);
+    margin-right: 120px;
+    padding-left: 70px;
+}
+
+#my-melody{
     margin-top: 70px;
-    padding-left: 130px;
-    width: 50%;
+    margin-right: 50px;
 }
 
 #me > small{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: -20px;
+    margin-right: 80px;
 }
 
 #socials{

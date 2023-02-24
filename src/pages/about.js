@@ -9,7 +9,7 @@ import me from '../pictures/me.png';
 function About() {
     return (
         <div className="App">
-            <Navbar />
+            <Navbar id="nav"/>
             <div id="about">
                 <div id="aboutcontent">
                     <div id="column">
