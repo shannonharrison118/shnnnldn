@@ -21,6 +21,7 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
         <pre>        .-~~-.--.</pre>
         <pre>       :         {')'}</pre>
         <pre> .~ ~ -.\       /.- ~~ .</pre>
@@ -37,7 +38,6 @@ function App() {
         <pre>   .' .-~      .-~       :/~-.~-./:</pre>
         <pre>  /_~_ _ . - ~                 ~-.~-._</pre>
         <pre>                                   ~-.{'<'}</pre>
-        <br></br>
       </div>
       <Footer />
     </div>
