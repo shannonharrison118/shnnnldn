@@ -1,0 +1,24 @@
+.Tech{
+    padding: 20px;
+}
+#museum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#museum > #column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 5px;
+}
+#museum > #column > #text{
+    line-height: 1.3rem;
+    margin-left: 30px;
+}
+#museum > #column > #text > small{
+    line-height: 0.9rem;
+    margin-left: 25px;
+}
