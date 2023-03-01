@@ -1,24 +1,80 @@
 .Tech{
-    padding: 20px;
+    background-color: #000000;
+    color: rgb(240, 240, 231);
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
-#museum{
+#navlink{
+    color: rgb(240, 240, 231);
+}
+#row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-#museum > #column{
+#row > #column{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     padding: 5px;
+    width: 45%;
 }
-#museum > #column > #text{
-    line-height: 1.3rem;
-    margin-left: 30px;
+#row > #column > #text{
+    line-height: 1.1rem;
 }
-#museum > #column > #text > small{
+#row > #column > #text > h1{
+    color: rgb(240, 240, 231);
+    text-decoration: none;
+}
+#row > #column > #text > small{
     line-height: 0.9rem;
     margin-left: 25px;
+}
+#row > #column > a > #invite{
+    border:rgb(240, 240, 231) 3px solid;
+    border-radius: 1px;
+}
+#row > #column > #text > img, #mone{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+#row > #column > h1,a{
+    color: rgb(240, 240, 231);
+    text-decoration: none;
+}
+
+#row > #column > img, #gelee{
+    margin-left: 50px;
+    border:rgb(240, 240, 231) 3px solid;
+    border-radius: 1px;
+}
+#row > #column > #text{
+    margin-left: 10%;
+}
+#row > #column > #text > #gone{
+    margin-left: -10%;
+}
+#row > #column > #text > #gtwo{
+    margin-left: 15%;
+    margin-bottom: -5%;
+}
+
+#row > #column > #text > #cert > #front{
+    margin-left: -12%;
+}
+#row > #column > #text > #cert > h1{
+    color:rgb(240, 240, 231);
+    text-decoration: none;
+}
+#row > #column > #text > #cert > a, h1{
+    text-decoration: underline;
+    color:rgb(240, 240, 231);
+}
+#row > #column > #text > #cert > #front > img{
+    border:rgb(240, 240, 231) 3px solid;
+    border-radius: 1px;
+    margin-left: 12%;
 }

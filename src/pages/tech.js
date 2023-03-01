@@ -1,26 +1,121 @@
 import '../App.css';
 import './tech.css';
+import {Link} from 'react-router-dom';
+import {Navbar} from '../components/Navbar.js';
+import {Footer} from '../components/Navbar.js';
 import invite from '../pictures/invite.png';
+import gelee from '../pictures/gelee-home.png';
+import geleeblog from '../pictures/gelee-blog.png';
+import geleeshop from '../pictures/gelee-shop.png';
+import museumhome from '../pictures/museum-home.png';
+import museumpage from '../pictures/museum-page.png';
+import port from '../pictures/port.png';
+import quiz from '../pictures/quiz.png';
+import spread from '../pictures/spread.png';
+import drum from '../pictures/drum.png';
+import calc from '../pictures/calc.png';
+import pomodoro from '../pictures/pomodoro.png';
+import code from '../pictures/code.png';
+import tree from '../pictures/tree.png';
+import sound from '../pictures/soundgeeks.png';
 
 
 
 function Tech() {
     return(
         <div className = "Tech">
-            <div id="museum" class="section">
+            <Navbar id="navlink"/>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div id="row" >
                 <div id="column">
                     <div id="text">
-                        <h1>shnnn's fashion museum</h1>
-                        <p>independently created a React App to act as a virtual fashion museum as I self-learn frontend development.</p>
+                        <h1>shnnn's fashion museum ✽˳⁺⁎˚</h1>
+                        <p><i>independently created a React App to act as a virtual fashion museum as I self-learn frontend development.</i></p>
                         <small>version 1.0.0</small>
                         <br></br>
                         <small>continuously working to integrate new ideas and interactivity.</small>
+                        <img id="mone" src={museumhome} width="200px"></img>
+                        <img id="mtwo" src={museumpage} width="200px"></img>
                     </div>
                 </div>
                 <div id="column">
-                    <img src={invite} width="600px"></img>
+                    <Link to="https://kaput-waves.surge.sh" target="_blank"><img id="invite" src={invite} width="550px"></img></Link>
                 </div>
             </div>
+            <br></br>
+            <br></br>
+            <div id="row">
+                <div id="column">
+                    <Link to="https://geleeworld.com" target="_blank"><img id="gelee" src={gelee} width="450px"></img></Link>
+                </div>
+                <div id="column">
+                    <div id="text">
+                        <h1><Link to="https://geleeworld.com" target="_blank">˚⁎⁺˳✽ geleeworld.com</Link></h1>
+                        <p><i>Web Design work done for Gelée Magazine.</i></p>
+                        <img id="gone" src={geleeblog} width="230px"></img>
+                        <img id="gtwo" src={geleeshop} width="230px"></img>
+                    </div>
+                </div>
+                
+            </div>
+            <br></br>
+            <br></br>
+            <div id="row">
+                <div id="column">
+                    <div id="text" >
+                        <div id="cert">
+                            <Link to="https://www.freecodecamp.org/certification/shnnnharrison/front-end-development-libraries" target="_blank"><h1>front end development</h1></Link>
+                            <p><i>certificate completed as a way to self teach front end development. </i></p>
+                            <div id="front">
+                                <img id="front" src={port} width="230px" height="150px"></img>
+                                <img id="front" src={quiz} width="230px" height="150px"></img>
+                                <img id="front" src={spread} width="230px" height="150px"></img>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div id="row">
+                <div id="column">
+                    <div id="text" >
+                        <div id="cert">
+                            <Link to="https://www.freecodecamp.org/certification/shnnnharrison/responsive-web-design" target="_blank"><h1>reactive web design</h1></Link>
+                            <p><i>certificate completed as a way to learn HTML and CSS. </i></p>
+                            <div id="front">
+                                <img id="front" src={drum} width="230px" height="150px"></img>
+                                <img id="front" src={calc} width="230px" height="150px"></img>
+                                <img id="front" src={pomodoro} width="230px" height="150px"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div id="row">
+                <div id="column">
+                    <div id="text" >
+                        <div id="cert">
+                            <h1>past classwork</h1>
+                            <p><i>various coding challanges and class projects completed within my studies.</i></p>
+                            <div id="front">
+                                <img id="front" src={code} width="230px" height="150px"></img>
+                                <img id="front" src={tree} width="230px" height="150px"></img>
+                                <img id="front" src={sound} width="230px" height="150px"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+            <Footer />
         </div>
     );
 };
