@@ -86,13 +86,14 @@ function Tech() {
                 </div>
                 <div id="column">
                     <div id="text">
-                        <h1><Link to="https://geleeworld.com" target="_blank">˚⁎⁺˳✽ geleeworld.com</Link></h1>
-                        <p><i>Web Design work done for Gelée Magazine.</i></p>
-                        <img id="gone" src={geleeblog} width="230px"></img>
-                        <img id="gtwo" src={geleeshop} width="230px"></img>
+                        <div id="jelly">
+                            <Link to="https://geleeworld.com" target="_blank"><h1>˚⁎⁺˳✽ geleeworld.com</h1></Link>
+                            <p><i>Web Design work done for Gelée Magazine.</i></p>
+                            <img id="gone" src={geleeblog} width="230px"></img>
+                            <img id="gtwo" src={geleeshop} width="230px"></img>
+                        </div>
                     </div>
                 </div>
-                
             </div>
             <br></br>
             <br></br>

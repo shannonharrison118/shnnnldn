@@ -25,6 +25,10 @@
     color: rgb(240, 240, 231);
     text-decoration: none;
 }
+#row > #column > #text > #jelly > a{
+    color: rgb(240, 240, 231) !important;
+    text-decoration: none !important;
+}
 #row > #column > #text > small{
     line-height: 0.9rem;
     margin-left: 25px;
@@ -76,10 +80,10 @@
 #row > #column > #text{
     margin-left: 10%;
 }
-#row > #column > #text > #gone{
+#row > #column > #text >  #jelly > #gone{
     margin-left: -10%;
 }
-#row > #column > #text > #gtwo{
+#row > #column > #text > #jelly > #gtwo{
     margin-left: 15%;
     margin-bottom: -5%;
 }
@@ -91,7 +95,7 @@
     color:rgb(240, 240, 231);
     text-decoration: none;
 }
-#row > #column > #text > #cert > a, h1{
+#row > #column > #text > #cert > a{
     text-decoration: underline;
     color:rgb(240, 240, 231);
 }
