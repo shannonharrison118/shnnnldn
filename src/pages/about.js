@@ -8,8 +8,12 @@ import me from '../pictures/me.png';
 
 function About() {
     return (
-        <div className="App">
-            <Navbar id="nav"/>
+        <div className="About">
+            <div id="navtop"><Navbar /></div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <div id="about">
                 <div id="aboutcontent">
                     <div id="column">
@@ -83,7 +87,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <Footer id="foot"/>
+                <Footer />
             </div>
             
         </div>

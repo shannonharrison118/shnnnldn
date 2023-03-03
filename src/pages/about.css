@@ -1,7 +1,12 @@
-.App{
-    height: 100%;
+.About{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #000000;
+    background-color:rgb(240, 240, 231);
 }
-
+a{
+    color: #000000 !important;
+}
 #aboutcontent {
     display: flex;
     flex-direction: row;
@@ -23,8 +28,9 @@
     line-height: 1.6rem;
     
 }
-h1, h4{
+#about > #aboutcontent > #column > #writing > h1, h4{
     color: #d87088;
+    text-decoration: none;
 }
 
 #small{
@@ -42,9 +48,9 @@ h1, h4{
 }
 
 #me{
-    margin-top: -50px;
-    margin-bottom: -80px;
-    padding-bottom: 40px;
+    margin-top: -150px;
+    margin-bottom: -120px;
+    padding-bottom: 50px;
     margin-left: 30px;
     background-color: #000000;
     color:rgb(240, 240, 231);
@@ -73,7 +79,7 @@ h1, h4{
     color: rgb(240, 240, 231);
     margin-top: 80px;
     margin-bottom: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #sociallinks{
@@ -90,7 +96,7 @@ h1, h4{
 
 #online > button{
     background-color: #d87088;
-    color:rgb(240, 240, 231);
+    color:rgb(240, 240, 231) !important;
     width: 180px;
     height: 40px;
     border: black 0px solid;
@@ -100,9 +106,5 @@ h1, h4{
 }
 #online > button > a{
     text-decoration: none;
-    color:rgb(240, 240, 231);
-}
-
-#about{
-    color: #000000;
+    color:rgb(240, 240, 231) !important;
 }

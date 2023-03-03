@@ -1,0 +1,11 @@
+#nav{
+    height: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-align: right;
+    margin-right: 20px;
+  }
+  #nav > #navlink{
+    text-decoration: none;
+  }

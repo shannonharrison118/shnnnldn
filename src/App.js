@@ -39,7 +39,7 @@ function App() {
         <pre>  /_~_ _ . - ~                 ~-.~-._</pre>
         <pre>                                   ~-.{'<'}</pre>
       </div>
-      <Footer />
+      <Footer id="foot"/>
     </div>
   );
 }

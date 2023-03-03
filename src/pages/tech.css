@@ -4,9 +4,6 @@
     padding-top: 15px;
     padding-bottom: 20px;
 }
-#navlink{
-    color: rgb(240, 240, 231);
-}
 #row{
     display: flex;
     flex-direction: row;
@@ -41,8 +38,8 @@
     margin-top: 10px;
 }
 
-#row > #column > h1,a{
-    color: rgb(240, 240, 231);
+#nl > a{
+    color: rgb(240, 240, 231) !important;
     text-decoration: none;
 }
 

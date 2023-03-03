@@ -1,5 +1,6 @@
 import '../App.css';
 import './tech.css';
+import '../components/Navbar.css';
 import {Link} from 'react-router-dom';
 import {Navbar} from '../components/Navbar.js';
 import {Footer} from '../components/Navbar.js';
@@ -24,13 +25,37 @@ import sound from '../pictures/soundgeeks.png';
 function Tech() {
     return(
         <div className = "Tech">
-            <Navbar id="navlink"/>
+            <Navbar id="nl"/>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
+            <div id="row">
+                <div id="column">
+                    <div id="text">
+                        <h1>current projects</h1>
+                        <p>Research into human-computer interation studying use cases of drones by creating simulations
+                            to conduct interaction and find ways of making drones more approachable for humans.</p>
+                        <small>Technologies include:
+                            <li>Unreal Engine</li>
+                            <li>AirSim Library</li>
+                            <ul>written in C++</ul>
+                        </small>
+                    </div>
+                </div>
+                <div id="column">
+                    <div id="text">
+                        <p>Database project focused on SQL development analyzing NYC traffic patterns in relation to 
+                            economic factors such as gas prices or social factors such as COVID_19.</p>
+                        <small>Technologies include:
+                            <li>SQL Developer</li>
+                            <li>React</li>
+                        </small>
+                    </div>
+                </div>
+            </div>
             <div id="row" >
                 <div id="column">
                     <div id="text">
