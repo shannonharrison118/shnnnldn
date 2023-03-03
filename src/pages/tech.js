@@ -19,6 +19,7 @@ import pomodoro from '../pictures/pomodoro.png';
 import code from '../pictures/code.png';
 import tree from '../pictures/tree.png';
 import sound from '../pictures/soundgeeks.png';
+import banner from '../pictures/long-banner.png';
 
 
 
@@ -27,7 +28,6 @@ function Tech() {
         <div className = "Tech">
             <div id="hug">
                 <Navbar />
-                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -62,6 +62,13 @@ function Tech() {
                     </div>
                 </div>
             </div>
+            <div id="row">
+                    <img src={banner} width="34%"></img>
+                    <img src={banner} width="33%"></img>
+                    <img src={banner} width="33%"></img>
+            </div>
+            <br></br>
+            <br></br>
             <div id="row" >
                 <div id="column">
                     <div id="text">
@@ -94,6 +101,13 @@ function Tech() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div id="row">
+                    <img src={banner} width="34%"></img>
+                    <img src={banner} width="33%"></img>
+                    <img src={banner} width="33%"></img>
             </div>
             <br></br>
             <br></br>
