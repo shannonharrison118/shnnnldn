@@ -15,7 +15,7 @@ function App() {
           <Link id="navlink" to="/about">about me</Link>
           <Link id="navlink" to="/technical">technical work</Link>
           {/* <Link id="navlink" to="/">creative work</Link> */}
-          <Link id="navlink" to="/">passions</Link>
+          <Link id="navlink" to="/passions">passions</Link>
       </div>
       <div id="ascii">
         <br></br>
