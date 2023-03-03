@@ -63,9 +63,9 @@ function Tech() {
                 </div>
             </div>
             <div id="row">
-                    <img src={banner} width="34%"></img>
-                    <img src={banner} width="33%"></img>
-                    <img src={banner} width="33%"></img>
+                    <img src={banner} width="34%" alt=""></img>
+                    <img src={banner} width="33%" alt=""></img>
+                    <img src={banner} width="33%" alt=""></img>
             </div>
             <br></br>
             <br></br>
@@ -77,27 +77,27 @@ function Tech() {
                         <small>version 1.0.0</small>
                         <br></br>
                         <small>continuously working to integrate new ideas and interactivity.</small>
-                        <img id="mone" src={museumhome} width="200px"></img>
-                        <img id="mtwo" src={museumpage} width="200px"></img>
+                        <img id="mone" src={museumhome} width="200px" alt=""></img>
+                        <img id="mtwo" src={museumpage} width="200px" alt=""></img>
                     </div>
                 </div>
                 <div id="column">
-                    <Link to="https://kaput-waves.surge.sh" target="_blank"><img id="invite" src={invite} width="550px"></img></Link>
+                    <Link to="https://kaput-waves.surge.sh" target="_blank"><img id="invite" src={invite} width="550px" alt=""></img></Link>
                 </div>
             </div>
             <br></br>
             <br></br>
             <div id="row">
                 <div id="column">
-                    <Link to="https://geleeworld.com" target="_blank"><img id="gelee" src={gelee} width="450px"></img></Link>
+                    <Link to="https://geleeworld.com" target="_blank"><img id="gelee" src={gelee} width="450px" alt=""></img></Link>
                 </div>
                 <div id="column">
                     <div id="text">
                         <div id="jelly">
                             <Link to="https://geleeworld.com" target="_blank"><h1>˚⁎⁺˳✽ geleeworld.com</h1></Link>
                             <p><i>Web Design work done for Gelée Magazine.</i></p>
-                            <img id="gone" src={geleeblog} width="230px"></img>
-                            <img id="gtwo" src={geleeshop} width="230px"></img>
+                            <img id="gone" src={geleeblog} width="230px" alt=""></img>
+                            <img id="gtwo" src={geleeshop} width="230px" alt=""></img>
                         </div>
                     </div>
                 </div>
@@ -105,9 +105,9 @@ function Tech() {
             <br></br>
             <br></br>
             <div id="row">
-                    <img src={banner} width="34%"></img>
-                    <img src={banner} width="33%"></img>
-                    <img src={banner} width="33%"></img>
+                    <img src={banner} width="34%" alt=""></img>
+                    <img src={banner} width="33%" alt=""></img>
+                    <img src={banner} width="33%" alt=""></img>
             </div>
             <br></br>
             <br></br>
@@ -118,9 +118,9 @@ function Tech() {
                             <Link to="https://www.freecodecamp.org/certification/shnnnharrison/front-end-development-libraries" target="_blank"><h1>front end development</h1></Link>
                             <p><i>certificate completed as a way to self teach front end development. </i></p>
                             <div id="front">
-                                <img id="front" src={port} width="230px" height="150px"></img>
-                                <img id="front" src={quiz} width="230px" height="150px"></img>
-                                <img id="front" src={spread} width="230px" height="150px"></img>
+                                <img id="front" src={port} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={quiz} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={spread} width="230px" height="150px" alt=""></img>
                             </div></div>
                     </div>
                 </div>
@@ -134,9 +134,9 @@ function Tech() {
                             <Link to="https://www.freecodecamp.org/certification/shnnnharrison/responsive-web-design" target="_blank"><h1>reactive web design</h1></Link>
                             <p><i>certificate completed as a way to learn HTML and CSS. </i></p>
                             <div id="front">
-                                <img id="front" src={drum} width="230px" height="150px"></img>
-                                <img id="front" src={calc} width="230px" height="150px"></img>
-                                <img id="front" src={pomodoro} width="230px" height="150px"></img>
+                                <img id="front" src={drum} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={calc} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={pomodoro} width="230px" height="150px" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -151,9 +151,9 @@ function Tech() {
                             <h1>past classwork</h1>
                             <p><i>various coding challanges and class projects completed within my studies.</i></p>
                             <div id="front">
-                                <img id="front" src={code} width="230px" height="150px"></img>
-                                <img id="front" src={tree} width="230px" height="150px"></img>
-                                <img id="front" src={sound} width="230px" height="150px"></img>
+                                <img id="front" src={code} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={tree} width="230px" height="150px" alt=""></img>
+                                <img id="front" src={sound} width="230px" height="150px" alt=""></img>
                             </div>
                         </div>
                     </div>

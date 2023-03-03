@@ -19,7 +19,7 @@ function About() {
                 <div id="aboutcontent">
                     <div id="column">
                         <div id="writing">
-                            <img src={banner} width="100%"></img>
+                            <img src={banner} width="100%" alt=""></img>
                             <h1>hi :) im shannon harrison / shnnnldn</h1>
                             <h4>I am a frontend developer and web designer based in New York City</h4>
                             <br></br>
@@ -66,7 +66,7 @@ function About() {
                                 <pre>      ＞―亠―＜            </pre>
                                 <pre>｡˚ ⋆｡⋆˚୨୧⋆｡˚ ⋆     ＼_ノヽ_／           </pre>
                             </div>
-                            <img src={me} width={350}></img>
+                            <img src={me} width={350} alt=""></img>
                             <small>this is what i look like most of the time</small>
                             <br></br>
                             <p><small>currently listening to: </small></p>
