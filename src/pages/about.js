@@ -66,7 +66,7 @@ function About() {
                                 <pre>      ＞―亠―＜            </pre>
                                 <pre>｡˚ ⋆｡⋆˚୨୧⋆｡˚ ⋆     ＼_ノヽ_／           </pre>
                             </div>
-                            <img src={me} width={350} alt=""></img>
+                            <img src={me} width={300} alt=""></img>
                             <small>this is what i look like most of the time</small>
                             <br></br>
                             <p><small>currently listening to: </small></p>
@@ -79,7 +79,7 @@ function About() {
                     <div id="sociallinks">
                         <h3>me online˚⁎⁺˳✽</h3>
                         <div id="online">
-                            <button><Link to="https://docs.google.com/document/d/1fpmLj0OJv-sf2c-js1Np2sD-RZm4o6bVpr-GZG7KN4U/edit?usp=sharing" target="_blank">Resume</Link></button>
+                            <button><Link to="https://docs.google.com/document/d/1fpmLj0OJv-sf2c-js1Np2sD-RZm4o6bVpr-GZG7KN4U/edit?usp=sharing" target="_blank">resume</Link></button>
                             <button><Link to="https://github.com/shannonharrison118" target="_blank">GitHub</Link></button>
                         </div>
                         <h3>connect or talk w me ˖◛⁺ ⑅ ♡</h3>
