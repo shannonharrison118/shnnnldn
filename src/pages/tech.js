@@ -72,7 +72,7 @@ function Tech() {
             <div id="row" >
                 <div id="column">
                     <div id="text">
-                        <h1>shnnn's fashion museum ✽˳⁺⁎˚</h1>
+                        <h1>virtual fashion museum ✽˳⁺⁎˚</h1>
                         <p><i>independently created a React App to act as a virtual fashion museum as I self-learn frontend development.</i></p>
                         <small>version 1.0.0</small>
                         <br></br>
