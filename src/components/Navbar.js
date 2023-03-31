@@ -19,8 +19,8 @@ export const Navbar = () => {
               <Link id="navlink" to="/">creative</Link>
           </ul> */}
           <ul>
-              <Link id="navlink" to="/passions">passions</Link>
-          </ul>
+              <Link id="navlink" to="/creative">creative</Link>
+          </ul> 
     </div>
   );
 };

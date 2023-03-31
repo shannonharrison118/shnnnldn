@@ -10,8 +10,7 @@ function Passions() {
         <div className="Passion">
             <Navbar />     
             <div id="plinks">
-                <div id="styling"><button><Link id="stylingpage" to="/styling">styling works</Link></button></div>
-                <div id="graphic"><button><Link id="graphiclink" to="/graphic">graphic design</Link></button></div>
+                <div id="geleemag"><button><Link id="geleelink" to="/creative/gelee">gelée magazine</Link></button></div>
                 <div id="sewing"><button><Link id="sewinglink" to="/sewing">sewing and fashion design</Link></button></div>
                 <div id="knit"><button><Link id="knitlink" to="/knit">crochet and knit works</Link></button></div>
             </div>

@@ -18,7 +18,7 @@
     transform: translate(0, -50%);
 }
 
-#styling, #graphic, #sewing, #knit{
+#geleemag, #sewing, #knit{
     width: 100%;
     padding-top: 50px;
     display: flex;
@@ -28,7 +28,7 @@
 button{
     width: 100%;
     height: 40px;
-    background-color: #d87088;
+    background-color: #1c1c1c;
     border: 0px;
     font-size: 1.1rem;
 }
