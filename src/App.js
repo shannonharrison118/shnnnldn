@@ -9,7 +9,8 @@ function App() {
       <div id="head">
         <pre>
         <h2>welcome :) </h2>
-        <p>this is a culmination of my technical and creative works.</p></pre>
+        <p>this is a culmination of my technical and creative works.</p>
+        <small>**site still under dev**</small></pre>
       </div>
       <div id="links">
           <Link id="navlink" to="/about">about me</Link>

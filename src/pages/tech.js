@@ -151,9 +151,9 @@ function Tech() {
                             <h1>past classwork</h1>
                             <p><i>various coding challanges and class projects completed within my studies.</i></p>
                             <div id="front">
-                                <img id="front" src={code} width="230px" height="150px" alt=""></img>
-                                <img id="front" src={tree} width="230px" height="150px" alt=""></img>
-                                <img id="front" src={sound} width="230px" height="150px" alt=""></img>
+                                <Link to="https://github.com/shannonharrison118/code-challenges" target="_blank"><img id="front" src={code} width="230px" height="150px" alt=""></img></Link>
+                                <Link to="https://github.com/shannonharrison118/AVL-tree-project" target="_blank"><img id="front" src={tree} width="230px" height="150px" alt=""></img></Link>
+                                <Link to="https://github.com/shannonharrison118/Music-Recommender" target="_blank"><img id="front" src={sound} width="230px" height="150px" alt=""></img></Link>
                             </div>
                         </div>
                     </div>

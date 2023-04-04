@@ -20,7 +20,7 @@
   font-size: 1.1rem;
 }
 
-#head h2{
+#head h2, small{
   display: flex;
   justify-content: center;
   align-items: center;
