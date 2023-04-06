@@ -85,7 +85,7 @@ function About() {
                         <h3>connect or talk w me ˖◛⁺ ⑅ ♡</h3>
                         <div id="online">
                             <button><Link to="https://www.linkedin.com/in/shannon-harrison-/" target="_blank">LinkedIn</Link></button>
-                            <button><div id="link" onClick={(e) => { window.location.href = 'mailto:example@email.com'; }}>email me</div></button>
+                            <button><div id="link" onClick={(e) => { window.location.href = 'mailto:shannonharrison118@email.com'; }}>email me</div></button>
                         </div>
                     </div>
                 </div>
